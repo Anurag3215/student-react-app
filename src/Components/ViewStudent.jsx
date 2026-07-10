@@ -35,9 +35,9 @@ const ViewStudent = () => {
                                         />
                                         <div className="card-body">
                                             <h5 className="card-title">{value.name}</h5>
-                                            <p className="card-text">{value.admno}</p> <br />
-                                            <p className="card-text">{value.class}</p> <br/>
-                                            <p className="card-text">{value.gender}</p> <br />
+                                            <p className="card-text"><strong>Admission No</strong>{value.admno}</p> <br />
+                                            <p className="card-text"><strong>Class</strong>{value.class}</p> <br/>
+                                            <p className="card-text"><strong></strong>{value.gender}</p> <br />
                                             <p className="card-text">{value.contact}</p><br />
                                             <p className="card-text">{value.email}</p><br />
                                             <p className="card-text">{value.parent}</p>
